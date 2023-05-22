@@ -1,0 +1,77 @@
+:root {
+    /*colores*/
+    --background: #e6e6e6;
+    --gray: #c4c4c4;
+    --blue: #005677;
+}
+
+/* Reiniciar los estilos que el navegador trae por defecto */
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    background-color: var(--background);
+}
+
+header img {
+    padding: 0.25em 0px;
+    
+}
+
+header h1 {
+    background-color: var(--gray);
+    color: var(--blue);
+    text-transform: uppercase;
+    padding: 0.25em 0px;
+    letter-spacing: 0.25em;
+}
+
+/* MAIN */
+
+main h3 {
+    background-color: var(--gray);
+    color: var(--blue);
+    text-transform: uppercase;
+    padding: 0.25em 0.5rem;
+    letter-spacing: 0.25em;
+}
+
+main span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.cv-section {
+    min-height: 100px;
+}
+
+.cv-section ul, article {
+    padding: 15px 25px;
+}
+
+.two-columns {
+    padding-left: 10px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 5px;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--blue);
+    color: white;
+    text-transform: uppercase;
+    padding: 0.25em 0px;
+    letter-spacing: 0.25em;
+}
