@@ -10,13 +10,21 @@
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    font-family: 'Lato', Helvetica, sans-serif;
+
 }
+
+a {
+    text-decoration: none;
+}
+
 
 /* HEADER */
 
 header {
     text-align: center;
     background-color: var(--background);
+    background: no-repeat center url("./assets/img/background.png");
 }
 
 header img {
@@ -47,6 +55,14 @@ main span {
     font-style: italic;
 }
 
+.cv-menu {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin: 1em;
+    color: white;
+}
+
 .cv-section {
     min-height: 100px;
 }
@@ -74,4 +90,20 @@ footer {
     text-transform: uppercase;
     padding: 0.25em 0px;
     letter-spacing: 0.25em;
+    margin-top: 30px;
 }
+p{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 1em;
+}
+
+footer ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+.devicon-github-original{
+    color: white;
+}
+
